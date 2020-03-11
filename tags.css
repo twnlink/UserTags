@@ -1,0 +1,14 @@
+/*
+UserTags by creatable
+-----------------------------
+NOTE: This file only exists |
+as a database. None of the  |
+tags display unless you add |
+basic styling to them.      |
+-----------------------------
+*/
+
+.avatar-1BDn8e[src*="597905003717459968"] + h2.header-23xsNx {
+    --tag-text: 'look at my discrim peasant';
+    --tag-bg: #1bb04c;
+}
