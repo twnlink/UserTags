@@ -1,0 +1,44 @@
+@import url('https://cr3atable.github.io/UserTags/tags.css');
+
+/*
+OVERVIEW OF THIS FILE
+---------------------
+This file contains a very basic implementation of tags.
+If you are a theme dev and your theme looks nothing like Discord by default (ex: Midnight by Tropical), I would suggest making your own implementation while using the database.
+
+Each user's tag may contain 3 distinct variables:
+--tag-text (the text to display on the tag)
+--tag-bg (the background for the tag)
+--tag-text-color (the color of the text displayed on each tag)
+
+These variables can be used for customizing tags per-user by request.
+If you'd like to change the default color and background for tags you can do so by adding this to your theme and modifying the variables:
+:root {
+    --tag-bg: #7289da;
+    --tag-text-color: white;
+}
+
+If you do end up creating your own implementation, I suggest accounting for these variables.
+---------------------
+Thank you for using UserTags <3
+*/
+
+:root {
+    --tag-bg: #7289da;
+    --tag-text-color: white;
+}
+
+.avatar-1BDn8e + h2 > span.timestamp-3ZCmNB::before {
+    color: var(--tag-text-color) !important;
+    background: var(--tag-bg);
+    content: var(--tag-text);
+    font-size: .8em;
+    font-weight: 500;
+    height: 2.28em;
+    padding: .072rem .275rem;
+    border-radius: 3px;
+    text-transform: uppercase;
+    vertical-align: baseline;
+    margin-right: .50rem;
+    margin-left: -.25rem;
+}
