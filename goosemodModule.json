@@ -1,0 +1,9 @@
+{
+  "main": "goosemod.js",
+  "version": "1.0.0",
+
+  "name": "UserTags",
+  "authors": ["597905003717459968"],
+  "description": "Gives users bot-like tags in chat",
+  "tags": ["ui", "customization"]
+}
